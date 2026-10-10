@@ -1,0 +1,46 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  padding: 1rem;
+  font-weight: 800;
+  text-transform: uppercase; /*transforma el texto en mayusculas- minusculas y capital */
+}
+
+
+/*fin de enlaces*/
+.navbar-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+.nav-link {
+  display: inline-block;
+  padding: 1rem 0.75rem;
+  color: var(--yellow-lght);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: var(--yellow-lght);
+  outline: none;
+}
+
+/*LOGO MENU*/
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.navbar-brand img {
+  height: 2.5rem;
+  width: auto;
+  display: block;
+}

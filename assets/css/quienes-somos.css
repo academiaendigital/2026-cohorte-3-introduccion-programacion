@@ -1,0 +1,11 @@
+/*QUIENES SOMOS*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1em;
+  font-weight: 400;
+}
+.img-responsive {
+  width: 600px;
+  height: auto;
+}
