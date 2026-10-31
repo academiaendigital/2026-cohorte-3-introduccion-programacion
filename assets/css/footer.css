@@ -12,3 +12,6 @@
 .logo-footer{
     max-width: 120px ;
 }
+.footer .col ul li a {
+    color: #ffff;
+}

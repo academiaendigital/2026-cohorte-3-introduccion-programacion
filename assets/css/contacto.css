@@ -1,0 +1,22 @@
+.contacto-title{
+    background-color: var(--blue-light);
+    color: var(--white);
+    padding: 5% 0;
+    text-align: center;
+}
+.contacto-title h1{
+    text-align: 48px;
+    font-weight: bold; 
+}
+.contacto-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.contacto-container .col{
+    padding: 30px;
+}
+input[type="text"]{
+
+
+}
