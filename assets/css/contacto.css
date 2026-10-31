@@ -16,7 +16,33 @@
 .contacto-container .col{
     padding: 30px;
 }
-input[type="text"]{
+input[type=text],[type=email]{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
 
-
+}
+label{
+    width: 100%;
+    font-size: 16px;
+}
+input[type=submit]{
+    background-color: var(--main-color);
+    padding: 10px;
+    color: white;
+    width:100% ;
+}
+input[type=submit]:hover{
+     background-color: black;
+}
+textarea{
+    width:100% ;
+     padding: 5px;
+}
+select{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
 }
